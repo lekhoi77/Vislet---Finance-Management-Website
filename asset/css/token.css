@@ -1,7 +1,3 @@
-/* ===== FONT IMPORT ===== */
-
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 /* ===== DESIGN TOKENS ===== */
 
 :root {
@@ -58,7 +54,7 @@
   --global-neutral-950: #040506;
 
   /* Font Family */
-  --font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family: 'Be Vietnam Pro', sans-serif;
 
   /* Font Weights */
   --font-weight-reg: 400;
@@ -66,54 +62,54 @@
   --font-weight-bold: 700;
 
   /* Display Typography */
-  --Display--60--Reg: 400 60px/auto var(--font-family);
-  --Display--60--Med: 500 60px/auto var(--font-family);
-  --Display--60--Bold: 700 60px/auto var(--font-family);
+  --Display--60--Reg: 400 60px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--60--Med: 500 60px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--60--Bold: 700 60px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Display--48--Reg: 400 48px/auto var(--font-family);
-  --Display--48--Med: 500 48px/auto var(--font-family);
-  --Display--48--Bold: 700 48px/auto var(--font-family);
+  --Display--48--Reg: 400 48px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--48--Med: 500 48px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--48--Bold: 700 48px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Display--36--Reg: 400 36px/auto var(--font-family);
-  --Display--36--Med: 500 36px/auto var(--font-family);
-  --Display--36--Bold: 700 36px/auto var(--font-family);
+  --Display--36--Reg: 400 36px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--36--Med: 500 36px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--36--Bold: 700 36px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Display--30--Reg: 400 30px/auto var(--font-family);
-  --Display--30--Med: 500 30px/auto var(--font-family);
-  --Display--30--Bold: 700 30px/auto var(--font-family);
+  --Display--30--Reg: 400 30px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--30--Med: 500 30px/1.2 'Be Vietnam Pro', sans-serif;
+  --Display--30--Bold: 700 30px/1.2 'Be Vietnam Pro', sans-serif;
 
   /* Text Typography */
-  --Text--32--Reg: 400 32px/auto var(--font-family);
-  --Text--32--Med: 500 32px/auto var(--font-family);
-  --Text--32--Bold: 700 32px/auto var(--font-family);
+  --Text--32--Reg: 400 32px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--32--Med: 500 32px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--32--Bold: 700 32px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Text--30--Reg: 400 30px/auto var(--font-family);
-  --Text--30--Med: 500 30px/auto var(--font-family);
-  --Text--30--Bold: 700 30px/auto var(--font-family);
+  --Text--30--Reg: 400 30px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--30--Med: 500 30px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--30--Bold: 700 30px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Text--28--Reg: 400 28px/auto var(--font-family);
-  --Text--28--Med: 500 28px/auto var(--font-family);
-  --Text--28--Bold: 700 28px/auto var(--font-family);
+  --Text--28--Reg: 400 28px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--28--Med: 500 28px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--28--Bold: 700 28px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Text--24--Reg: 400 24px/auto var(--font-family);
-  --Text--24--Med: 500 24px/auto var(--font-family);
-  --Text--24--Bold: 700 24px/auto var(--font-family);
+  --Text--24--Reg: 400 24px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--24--Med: 500 24px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--24--Bold: 700 24px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Text--20--Reg: 400 20px/auto var(--font-family);
-  --Text--20--Med: 500 20px/auto var(--font-family);
-  --Text--20--Bold: 700 20px/auto var(--font-family);
+  --Text--20--Reg: 400 20px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--20--Med: 500 20px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--20--Bold: 700 20px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Text--18--Reg: 400 18px/auto var(--font-family);
-  --Text--18--Med: 500 18px/auto var(--font-family);
-  --Text--18--Bold: 700 18px/auto var(--font-family);
+  --Text--18--Reg: 400 18px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--18--Med: 500 18px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--18--Bold: 700 18px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Text--16--Reg: 400 16px/auto var(--font-family);
-  --Text--16--Med: 500 16px/auto var(--font-family);
-  --Text--16--Bold: 700 16px/auto var(--font-family);
+  --Text--16--Reg: 400 16px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--16--Med: 500 16px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--16--Bold: 700 16px/1.2 'Be Vietnam Pro', sans-serif;
   
-  --Text--14--Reg: 400 14px/auto var(--font-family);
-  --Text--14--Med: 500 14px/auto var(--font-family);
-  --Text--14--Bold: 700 14px/auto var(--font-family);
+  --Text--14--Reg: 400 14px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--14--Med: 500 14px/1.2 'Be Vietnam Pro', sans-serif;
+  --Text--14--Bold: 700 14px/1.2 'Be Vietnam Pro', sans-serif;
 }
 
 /* ===== SEMANTIC ALIASES ===== */

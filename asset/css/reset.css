@@ -67,8 +67,8 @@ p {
 /* Link Elements */
 /* Cài đặt cho các liên kết */
 a {
-    color: #0066cc; /* Màu xanh mặc định cho link */
-    text-decoration: underline;
+    color: inherit; /* Kế thừa màu từ parent */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
     background-color: transparent;
     transition: color 0.15s ease-in-out;
 }
@@ -86,13 +86,14 @@ a:focus {
 /* List Elements */
 /* Cài đặt cho các danh sách */
 ul, ol {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    padding-left: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 li {
-    margin-bottom: 0.25rem;
+    margin: 0;
+    padding: 0;
 }
 
 /* Form Elements */

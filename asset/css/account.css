@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+padding: 64px 182px 0 182px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+nav ul {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+/* Navigation List Items */
+nav ul li {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+min-width: 140px;
+gap: 8px;
+font: var(--Text--16--Reg) ;
+color: var(--global-primary-500);
+}
+
+
