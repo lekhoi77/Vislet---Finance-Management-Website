@@ -53,14 +53,6 @@
   --global-neutral-900: #525253;
   --global-neutral-950: #040506;
 
-  /* Font Family */
-  --font-family: 'Be Vietnam Pro', sans-serif;
-
-  /* Font Weights */
-  --font-weight-reg: 400;
-  --font-weight-med: 500;
-  --font-weight-bold: 700;
-
   /* Display Typography */
   --Display--60--Reg: 400 60px/1.2 'Be Vietnam Pro', sans-serif;
   --Display--60--Med: 500 60px/1.2 'Be Vietnam Pro', sans-serif;

@@ -1,5 +1,6 @@
+/* ===== NAVIGATION ===== */
 nav{
-    display: flex;
+display: flex;
 padding: 64px 182px 0 182px;
 justify-content: space-between;
 align-items: center;
@@ -10,7 +11,11 @@ nav ul {
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
+flex: 1;
+gap: 36px;
+margin: 0 auto;
+padding-left: 48px;
 }
 
 /* Navigation List Items */
@@ -18,11 +23,88 @@ nav ul li {
 display: flex;
 flex-direction: row;
 justify-content: center;
-align-items: center;
-min-width: 140px;
 gap: 8px;
 font: var(--Text--16--Reg) ;
-color: var(--global-primary-500);
+color: var(--global-primary-600);
+cursor: pointer;
 }
+
+/* Override default link styles */
+nav ul li a {
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--global-accent-500);
+    text-decoration: none;
+    font : var(--Text--16--Med) ;
+}
+nav ul li img{
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+nav ul li:hover img{
+    opacity: 1;
+}
+
+.login-register{
+    display: flex;
+    align-items: center;
+}
+
+.login-register button{
+    border-radius: 1000px;
+    border: 1.6px solid var(--global-primary-800, #0B5847);
+    padding: 12px 12px 12px 12px;
+background: var(--global-primary-700, #0F755F);
+color: var(--global-neutral-50);
+font: var(--Text--16--Reg) ;
+}
+
+.login-register .btn-login{
+    display: flex;
+padding-right: 56px;
+justify-content: center;
+align-items: center;
+background: none;
+color: var(--global-primary-800, #0B5847);
+transform: translateX(52px);
+}
+.login-register .btn-register{
+    z-index: 1;
+}
+
+/* ===== n/NAVIGATION ===== */
+
+
+/* ===== FOOTER ===== */
+
+footer{
+    display: flex;
+    padding: 48px 128px 96px 128px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--global-neutral-50);
+}
+
+footer .column{
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+footer .footer-logo p{
+    color: var(--global-secondary-300, #7D8488);
+    font: var(--Text--18--Reg) ;
+}
+
+footer .column h2{
+    color: var(--global-primary-700, #0F755F);
+    font: var(--Text--18--Bold) ;
+}
+
+
 
 
